@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(55, 36, 76);
+}
+h1{
+    background:  rgb(55, 36, 76);
 }
 table{
     width: 100%;
@@ -25,6 +29,7 @@ tr:nth-of-type(2n){
     align-items: center;
     justify-content: center;
     margin: 2rem;
+    background:  rgb(55, 36, 76);
 }
 #myInput{
     display: flex;
