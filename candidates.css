@@ -1,6 +1,37 @@
-th{
-    width: 40%;
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-tr{
-    width: 30%;
+table{
+    width: 100%;
+    background: rgb(242, 167, 102);
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 1rem;
+}
+th{
+    text-align: left;
+    background:  rgb(249, 140, 45);;
+}
+tr:nth-of-type(2n){
+    background:  rgb(247, 163, 90);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+#myInput{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem;
+    height: 2rem;
+    border-radius: 10px; 
+
 }
